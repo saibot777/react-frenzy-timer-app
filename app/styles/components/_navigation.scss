@@ -1,15 +1,18 @@
 .top-bar, .top-bar ul {
   background-color: $nav-background;
 }
+
 .top-bar {
-  li.menu-text {
+  .menu-text {
     color: $nav-text-color;
   }
+
   .menu > .menu-text > a {
     display: inline;
     padding: 0;
-  } 
+  }
+
   .active-link {
-    border-bottom: 3px solid #2199e8;
+    border-bottom:3px solid #2199e8;
   }
 }
